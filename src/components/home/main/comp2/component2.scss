@@ -1,0 +1,156 @@
+.component2 {
+ position: relative;
+}
+.component2_title {
+    width: 100%;
+    position: relative;
+   z-index: 3;
+  
+    p {
+        color: rgb(117, 122, 165);
+font-family: Montserrat;
+font-size: 26px;
+font-weight: 275;
+line-height: 109.4%;
+letter-spacing: 0%;
+text-align: center;
+    }
+}
+.component2_block_cards {
+}
+
+.dandelions {
+    width: 50%;
+position: absolute;
+top: 0;
+left: 0;
+img {
+    width: 100%;
+}
+}
+
+ @media (min-width: 320px) and (max-width: 560px) {
+    .dandelions {
+   display: none;
+    }
+}
+ @media (min-width: 460px) and (max-width: 768px) {
+    .component2 {
+        margin-top: -5%;
+    }
+    .component2_title {
+        p {
+         font-size: 30px;   
+        }
+        
+    }
+    .dandelions {
+        width: 100%;
+    position: absolute;
+    top: -90px;
+  
+    img {
+        width: 100%;
+    }
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .component2 {
+        margin-top: -28%;
+    }
+    .component2_title {
+        p {
+         font-size: 40px;   
+        }
+        
+    }
+    .dandelions {
+        width: 60%;
+    position: absolute;
+    top: -80px;
+  
+    img {
+        width: 100%;
+    }
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .component2 {
+        margin-top: -24%;
+    }
+    .component2_title {
+        p {
+         font-size: 50px;   
+        }
+        
+    }
+    .dandelions {
+        width: 49%;
+    position: absolute;
+    top: -150px;
+    img {
+        width: 100%;
+    }
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .component2 {
+        margin-top: -24%;
+    }
+    .component2_title {
+        p {
+         font-size: 60px;   
+        }
+        
+    }
+    .dandelions {
+        width: 45%;
+    position: absolute;
+    top: -170px;
+    img {
+        width: 100%;
+    }
+    }
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .component2 {
+        margin-top: -24%;
+    }
+    .component2_title {
+        p {
+         font-size: 64px;   
+        }
+        
+    }
+    .dandelions {
+        width: 45%;
+    position: absolute;
+    top: -200px;
+    img {
+        width: 100%;
+    }
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 100vw) {
+    .component2 {
+        margin-top: -33%;
+    }
+    .component2_title {
+        p {
+         font-size: 70px;   
+        }
+        
+    }
+    .dandelions {
+        width: 45%;
+    position: absolute;
+    top: -250px;
+    img {
+        width: 100%;
+    }
+    }
+}

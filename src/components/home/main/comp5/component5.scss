@@ -1,0 +1,58 @@
+.component5 {
+  margin-top: 20%;
+}
+.comp5_title {
+  margin-bottom: 10%;
+  color: rgb(117, 122, 165);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 275;
+  line-height: 109.4%;
+  letter-spacing: 0%;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+@media (min-width: 460px) and (max-width: 560px) {
+  .component5 {
+    margin-top: 18%;
+  }
+  .comp5_title {
+    font-size: 38px;
+  }
+}
+@media (min-width: 560px) and (max-width: 1000px) {
+  .component5 {
+    margin-top: 15%;
+  }
+  .comp5_title {
+    font-size: 46px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .component5 {
+    margin-top: 8%;
+  }
+  .comp5_title {
+    font-size: 46px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .component5 {
+    margin-top: 8%;
+  }
+  .comp5_title {
+    margin-bottom: 6%;
+    font-size: 56px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 100vw) {
+  .component5 {
+    margin-top: 8%;
+  }
+  .comp5_title {
+    margin-bottom: 7%;
+    font-size: 70px;
+  }
+}

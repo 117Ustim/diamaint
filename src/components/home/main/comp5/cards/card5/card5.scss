@@ -1,0 +1,97 @@
+.card5 {
+  padding: 36px 14px 35px 48px;
+  background: rgb(247, 247, 250);
+  border-top: 6px solid rgb(81, 80, 118);
+  margin: 0 auto;
+}
+.card5_line {
+}
+.card5_advice {
+  color: rgb(165, 163, 185);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 199.99%;
+  letter-spacing: 23%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.card5_title {
+
+  margin-top: 5%;
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 135.99%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card5_text {
+   max-width: 350px;
+
+  margin-top: 10%;
+  color: rgb(136, 135, 148);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+.card5_read_block {
+  display: flex;
+    margin-top: 30%;
+  position: relative;
+
+}
+.card5_read_line {
+  width: 6%;
+  position: absolute;
+  bottom: 15px;
+  left: -8%;
+
+  border-top: 1px solid rgb(81, 80, 118);
+}
+.card5_read {
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 199.99%;
+  letter-spacing: 23%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+@media (min-width: 560px) and (max-width: 768px) {
+    .card5 {
+         height: 400px;
+    }
+
+//   .card5_text {
+//     width: 90%;
+//   }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .card5 {
+    height: 400px;
+  }
+
+//   .card5_text {
+//     width: 90%;
+//   }
+}
+
+@media (min-width: 1000px) and (max-width: 100vw) {
+    .card5 {
+      width: 300px;
+    height: 400px;
+    }
+  
+    .card5_text {
+      width: 90%;
+    }
+  }

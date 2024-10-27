@@ -1,0 +1,37 @@
+.cards_comp3 {
+  margin-top: 25%;
+}
+
+.cards_block_comp3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 460px) and (max-width: 1000px) {
+  .cards_comp3 {
+    margin-top: 12%;
+  }
+}
+
+// @media (min-width: 1000px) and (max-width: 1200px) {
+//   .cards_comp3 {
+//     margin-top: 15%;
+
+// }
+// }
+// @media (min-width: 1200px) and (max-width: 1400px) {
+//   .cards_comp3 {
+//     margin-top: 15%;
+
+// }
+// }
+// @media (min-width: 1400px) and (max-width: 100vw) {
+//   .cards_comp3 {
+//     margin-top: 15%;
+
+// }
+// }

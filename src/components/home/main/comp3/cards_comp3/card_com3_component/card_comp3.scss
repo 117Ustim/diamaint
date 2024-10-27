@@ -1,0 +1,277 @@
+.card_comp3 {
+  width: 100%;
+
+  background: rgb(247, 247, 250);
+  // margin-bottom: 20px;
+}
+.card_comp3_block {
+  //  max-width: 400px;
+
+}
+.discount_5 {
+  // padding: 20px 0 0 20px;
+  width: 100%;
+  height: 70px;
+  background: rgba(81, 80, 118, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+  p {
+    color: rgb(81, 80, 118);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 135.99%;
+    letter-spacing: 0%;
+    text-align: left;
+   
+  }
+ 
+}
+.discount_10 {
+  width: 100%;
+  height: 90px;
+  background: rgba(81, 80, 118, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  p {
+    color: rgb(81, 80, 118);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 135.99%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+.discount_20 {
+  width: 100%;
+  height: 100px;
+  background: rgba(81, 80, 118, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: rgb(81, 80, 118);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 135.99%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+.card_image_comp3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    padding-top: 50px;
+    width: 90%;
+  }
+}
+.card_title_block_comp3 {
+  padding: 0 38px;
+}
+.card_title_comp3 {
+  height: 26px;
+  color: rgb(165, 163, 185);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 199.99%;
+  letter-spacing: 23%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.card_text_comp3 {
+  // height: 64px;
+   margin-top: 20px;
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 135.99%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card_block_price_comp3 {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  // height: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+.card_block_price_price_block_discount_comp3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  height: 20px;
+}
+.card_block_price_price_discount_comp3 {
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 135.99%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: line-through;
+  text-align: center;
+  p {
+    margin-right: 20px;
+  }
+}
+.card_block_price_price_comp3 {
+  color: rgb(81, 80, 118);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 135.99%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+// .card_block_price_image_comp3 {
+// }
+// .nodiscount_comp3 {
+
+//   width: 370px;
+//   background: rgb(247, 247, 250);
+// }
+// .discount_comp3 {
+//   width: 370px;
+//   background: rgb(247, 247, 250);
+// }
+
+@media (min-width: 460px) and (max-width: 560px) {
+}
+
+@media (min-width: 560px) and (max-width: 768px) {
+  .card_comp3_block {
+    max-width: 250px;
+  }
+  .discount_5 {
+    p {
+      font-size: 30px;
+    }
+  }
+  .discount_20 {
+    height: 100px;
+    p {
+      font-size: 30px;
+    }
+  }
+  .discount_10 {
+    height: 100px;
+    p {
+      font-size: 30px;
+    }
+  }
+  .card_text_comp3 {
+    font-size: 16px;
+  }
+  .card_block_price_price_discount_comp3 {
+    font-size: 12px;
+  }
+  .card_block_price_price_comp3 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .card_comp3_block {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .card_comp3_block {
+    max-width: 300px;
+  }
+  .discount_5 {
+    height: 100px;
+    p {
+      font-size: 30px;
+    }
+  }
+  .discount_20 {
+    height: 200px;
+
+    p {
+      font-size: 30px;
+    }
+  }
+  .discount_10 {
+    height: 150px;
+    p {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .card_comp3_block {
+    max-width: 320px;
+  }
+  .discount_5 {
+    height: 100px;
+    p {
+      font-size: 36px;
+    }
+  }
+  .discount_20 {
+    height: 200px;
+
+    p {
+      font-size: 36px;
+    }
+  }
+  .discount_10 {
+    height: 150px;
+    p {
+      font-size: 36px;
+    }
+  }
+}
+@media (min-width: 1400px) and (max-width: 100vw) {
+  .card_comp3_block {
+    max-width: 370px;
+  
+  }
+  .card_text_comp3 {
+ 
+    font-size: 18px;
+  }
+  .card_block_price_price_discount_comp3 {
+    font-size: 16px;
+  }
+  .card_block_price_price_comp3 {
+    font-size: 18px;
+  }
+  .discount_5 {
+    height: 100px;
+   
+    p {
+      
+      font-size: 36px;
+    }
+  }
+  .discount_20 {
+    height: 200px;
+
+    p {
+      font-size: 36px;
+    }
+  }
+  .discount_10 {
+    height: 150px;
+    p {
+      font-size: 36px;
+    }
+  }
+}

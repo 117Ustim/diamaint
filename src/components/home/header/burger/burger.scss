@@ -1,0 +1,125 @@
+.burger-menu {
+  display: flex;
+
+}
+.menu-btn {
+  position: absolute;
+
+  // width: 10px;
+  // height: 10px;
+  cursor: pointer; 
+   z-index: 3;
+ 
+}
+
+.menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {
+  display: block;
+
+  position: absolute;
+  top: -10px;
+  z-index: 2;
+  width: 100%;
+  color: rgb(81, 80, 118);
+  font-size: 30px;
+ 
+  transition-duration: 0.50s;
+ 
+}
+// .menu-btn > span::before {
+//   content: "";
+//   top: -8px;
+// }
+// .menu-btn > span::after {
+//   content: "";
+//   top: 8px;
+// }
+
+.menubox {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  z-index: 45;
+  top: 80px;
+  left: -100%;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  // background-color: #ededed;
+  background: rgb(237, 236, 247);
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.75s;
+ 
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.menu-item {
+  display: block;
+  padding: 8px 24px;
+  color: #333;
+
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+.menu-item:hover {
+  // background-color: #cfd8dc;
+  background: rgb(219, 219, 230);
+}
+
+#menu-toggle {
+  width: 30px;
+  opacity: 0;
+  display: flex;
+}
+
+// #menu-toggle:checked ~ .menu-btn > span {
+//   transform: rotate(45deg);
+// }
+// #menu-toggle:checked ~ .menu-btn > span::before {
+//   top: 0;
+//   transform: rotate(0);
+// }
+// #menu-toggle:checked ~ .menu-btn > span::after {
+//   top: 0;
+//   transform: rotate(90deg);
+// }
+#menu-toggle:checked ~ .menubox {
+  visibility: visible;
+  left: 60px;
+}
+
+// @media screen and (max-width: 390px) {
+//   #menu-toggle:checked ~ .menubox {
+//     left: 130px;
+//   }
+// }
+ @media (min-width: 320px) and (max-width: 460px) {
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
+   
+    font-size: 24px;
+  
+   
+  }
+}
+@media (min-width: 460px) and (max-width: 600px) {
+  #menu-toggle:checked ~ .menubox {
+    visibility: visible;
+    left: 90px;
+  } 
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  #menu-toggle:checked ~ .menubox {
+    visibility: visible;
+    left: 165px;
+  } 
+}
